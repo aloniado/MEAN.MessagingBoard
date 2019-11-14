@@ -38,4 +38,4 @@ app.use("/api/posts", postsRoutes); //only routes starts with string will be sen
 
 module.exports = app;    //exporting the express app for it to be used by the server
 
-//GrvRc7EYvPbB2UuD, alon
+
