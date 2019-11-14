@@ -7,7 +7,7 @@ const postsRoutes = require("./routes/posts");
 const app = express();
 
 //connecting to mongoDB server using mongoose and credentials defined in mongodb.org:
-//mongoose.connect('mongodb+srv://alon:GrvRc7EYvPbB2UuD@cluster0-7gxxh.mongodb.net/node-angular?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true}) //Cloud DB
+//mongoose.connect('mongodb+srv://[DELETED FOR SECURITY REASONS]', { useNewUrlParser: true, useUnifiedTopology: true}) //Cloud DB
 mongoose.connect('mongodb://127.0.0.1:27017/mymessages', { useNewUrlParser: true, useUnifiedTopology: true}) //Local DB
 .then(() => {
   console.log('Connected to Database!')
